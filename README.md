@@ -1,2 +1,3 @@
 # CT243-QuanLyBanHang
-# CT243-QuanLyBanHang
+
+USE SQL Server
