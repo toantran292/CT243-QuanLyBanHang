@@ -18,8 +18,10 @@ namespace QuanLyBanHang
         //Chuỗi kết nối
         //string strConnectionString = @"Server=.\SQLEXPRESS;Database=QuanLyBanHang;Integrated Security=True";
         //or
-        string strConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLyBanHang;Integrated Security=SSPI";
+        // string strConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLyBanHang;Integrated Security=SSPI";
+        string strConnectionString = @"Data Source=localhost,1433;Initial Catalog=QuanLyBanHang;User ID=sa;Password=YourStrong!Passw0rd";
 
+        
         //Đối tượng kết nối
         SqlConnection conn = null;
         //Đối tượng đưa dữ liệu vào DataTable dtKhachHang = null;
